@@ -8,7 +8,6 @@ def conversor():
     opcao = int(input("Digite a opção desejada: "))
 
     if opcao == 1:
-        
         #Considerando que o valor digitado no input se torna uma string, é importante
         #colocar a instrução "int" antes do input para indicar que tipo de valor deve ser retornado
         temperatura = int(input("\nDigite a temperatura em Celsius: "))
